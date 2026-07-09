@@ -29,15 +29,15 @@ const Hero = () => {
 
             <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3 text-left">
               <div className="rounded-2xl bg-white/80 p-3 shadow-sm">
-                <p className="text-xl font-bold text-[#2f2a29]">4.9/5</p>
+                <p className="text-xl font-bold text-[#fcc200]">4.9/5</p>
                 <p className="text-sm text-[#7d6e69]">Client love</p>
               </div>
               <div className="rounded-2xl bg-white/80 p-3 shadow-sm">
-                <p className="text-xl font-bold text-[#2f2a29]">15+</p>
+                <p className="text-xl font-bold text-[#fcc200]">15+</p>
                 <p className="text-sm text-[#7d6e69]">Years styling</p>
               </div>
               <div className="rounded-2xl bg-white/80 p-3 shadow-sm col-span-2 sm:col-span-1">
-                <p className="text-xl font-bold text-[#2f2a29]">7 days</p>
+                <p className="text-xl font-bold text-[#fcc200]">7 days</p>
                 <p className="text-sm text-[#7d6e69]">Open weekly</p>
               </div>
             </div>
