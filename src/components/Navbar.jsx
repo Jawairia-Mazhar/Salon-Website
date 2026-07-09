@@ -10,8 +10,8 @@ const Navbar = () => {
         <img src={logo} alt="Salon logo" className="h-full w-auto object-contain" />
 
         {/* <div className="flex gap-2"> */}
-          <a href="#" className="text-lg text-gray-800 hover:text-orange-400">Reviews</a>
-          <a href="#" className="text-lg text-gray-800 hover:text-orange-400">Contact</a>
+          <a href="#reviews" className="text-lg text-gray-800 hover:text-orange-400">Reviews</a>
+          <a href="#about" className="text-lg text-gray-800 hover:text-orange-400">About</a>
         {/* </div> */}
 
     </div>
