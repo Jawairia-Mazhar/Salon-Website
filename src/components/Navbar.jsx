@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-14 flex justify-center items-center gap-10 px-4 mt-1">
           <a href="#" className="text-lg text-gray-800 hover:text-orange-400">Home</a>
-          <a href="#" className="text-lg text-gray-800 hover:text-orange-400">Services</a>
+          <a href="#services" className="text-lg text-gray-800 hover:text-orange-400">Services</a>
 
         <img src={logo} alt="Salon logo" className="h-full w-auto object-contain" />
 
