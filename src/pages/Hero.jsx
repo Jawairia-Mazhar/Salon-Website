@@ -1,5 +1,6 @@
 import React from 'react'
 import img from '../assets/cover-Img.png'
+import logo from '../assets/glow.png'
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
               Luxury beauty, redefined
             </p>
             <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-[#2f2a29]">
-              Where <span className="text-(--color-primary)">glow</span> meets confidence.
+              Where <span className="relative inline-flex h-full w-42 items-end justify-center align-bottom"><img src={logo} alt="Salon logo" className="h-full w-full object-contain" /></span> meets confidence.
             </h1>
             <p className="mt-4 text-lg text-[#5f5452] max-w-xl mx-auto lg:mx-0">
               Step into a calming space designed for radiant hair, flawless styling,
