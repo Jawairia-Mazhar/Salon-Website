@@ -67,6 +67,44 @@
   margin: 0 0 20px;
 }
 
+@media (max-width: 768px) {
+  .snip1533 {
+    margin: 25px 8px 10px;
+    max-width: 280px;
+    min-width: 220px;
+  }
+  
+  .snip1533 h3 {
+    font-size: 17px;
+  }
+  
+  .snip1533 blockquote {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .snip1533 {
+    margin: 20px 5px 10px;
+    max-width: 100%;
+    min-width: auto;
+  }
+  
+  .snip1533 figcaption {
+    padding: 15% 8% 12%;
+  }
+  
+  .snip1533 h3 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  
+  .snip1533 blockquote {
+    font-size: 13px;
+    margin: 0 0 15px;
+  }
+}
+
 
 /* Demo purposes only */
 
