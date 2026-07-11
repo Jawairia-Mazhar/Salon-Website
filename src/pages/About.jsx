@@ -11,7 +11,15 @@ const About = () => {
   <div className="responsive-container-block container">
     <div className="responsive-container-block">
       <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-6 wk-ipadp-12 img-one">
-        <img alt="golden-lines.png" className="image-block bg-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/golden%20lines.png" />
+        <img
+          alt="golden-lines.png"
+          className="image-block bg-image"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/golden%20lines.png"
+          loading="lazy"
+          decoding="async"
+          width="600"
+          height="400"
+        />
       </div>
       <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-6 wk-ipadp-12 content-one">
         <p className="text-2xl sm:text-3xl font-bold text-center pb-6">

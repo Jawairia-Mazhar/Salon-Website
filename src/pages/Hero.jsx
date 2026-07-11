@@ -12,7 +12,7 @@ const Hero = () => {
               Luxury beauty, redefined
             </p>
             <h1 className="mt-4 text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-[#2f2a29]">
-              Where <span className="relative inline-flex h-full w-42 items-end justify-center align-bottom"><img src={logo} alt="Salon logo" className="h-full w-full object-contain" /></span> meets confidence.
+              Where <span className="relative inline-flex h-full w-42 items-end justify-center align-bottom"><img src={logo} alt="Salon logo" loading="eager" decoding="async" width="160" height="80" className="h-full w-full object-contain" /></span> meets confidence.
             </h1>
             <p className="mt-4 text-base sm:text-lg text-[#5f5452] max-w-xl mx-auto lg:mx-0">
               Step into a calming space designed for radiant hair, flawless styling,
@@ -51,6 +51,12 @@ const Hero = () => {
                 <img
                   src={img}
                   alt="Glow Beauty Salon"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
+                  width="960"
+                  height="720"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="h-[420px] sm:h-[500px] w-full object-cover rounded-[1.4rem]"
                 />
 

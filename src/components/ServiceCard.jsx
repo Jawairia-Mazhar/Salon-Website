@@ -3,7 +3,16 @@ import React from 'react'
 const ServiceCard = ({ image, title, description, price }) => {
   return (
     <div className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
-      <img src={image} alt={title} className="h-40 sm:h-48 lg:h-58 w-full object-cover" />
+      <img
+        src={image}
+        alt={title}
+        loading="lazy"
+        decoding="async"
+        width="800"
+        height="600"
+        sizes="(max-width: 768px) 100vw, 33vw"
+        className="h-40 sm:h-48 lg:h-58 w-full object-cover"
+      />
       <div className="p-3 sm:p-4">
         <h3 className="text-lg sm:text-xl font-semibold">{title}</h3>
         <p className="mt-2 text-xs sm:text-sm text-gray-600">{description}</p>
