@@ -1,6 +1,19 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root{
     --color-primary: #fcc200;
     --color-secondary: #d2652d;
+}
+
+.nav-link {
+    color: #1f2937;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--color-primary);
 }

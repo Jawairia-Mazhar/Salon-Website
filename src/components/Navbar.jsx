@@ -19,7 +19,7 @@ const Navbar = () => {
             <a
               key={link.label}
               href={link.href}
-              className="text-base font-medium text-gray-800 transition hover:text-orange-400 sm:text-lg"
+              className="nav-link text-base font-medium sm:text-lg"
             >
               {link.label}
             </a>
@@ -30,12 +30,12 @@ const Navbar = () => {
           <img src={logo} alt="Salon logo" className="h-12 w-auto object-contain sm:h-14" />
         </a>
 
-        <div className="hidden flex-1 items-center justify-start ml-6 gap-6 md:flex lg:gap-8">
+        <div className="hidden flex-1 items-center justify-start ml-6 gap-6 md:flex lg:gap-8" >
           {links.slice(2).map((link) => (
             <a
               key={link.label}
               href={link.href}
-              className="text-base font-medium text-gray-800 transition hover:text-orange-400 sm:text-lg"
+              className="nav-link text-base font-medium sm:text-lg"
             >
               {link.label}
             </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
             <a
               key={link.label} 
               href={link.href}
-              className="text-base font-medium text-gray-800 transition hover:text-orange-400"
+              className="nav-link text-base font-medium"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}
