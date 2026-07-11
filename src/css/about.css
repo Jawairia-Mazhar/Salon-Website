@@ -173,7 +173,27 @@ a {
     margin-left: 0px;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+@media (max-width: 640px) {
+  .snip1533 {
+    margin: 20px 5px 10px;
+    max-width: 100%;
+    min-width: auto;
+  }
+  
+  .snip1533 figcaption {
+    padding: 20% 8% 15%;
+  }
+  
+  .snip1533 h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .snip1533 blockquote {
+    font-size: 14px;
+  }
+}
 
 *,
 *:before,
