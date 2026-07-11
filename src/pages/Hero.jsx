@@ -4,7 +4,7 @@ import logo from '../assets/glow.png'
 
 const Hero = () => {
   return (
-    <main className="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <main className="mx-auto px-4 py-8 sm:px-6 lg:px-8" id="#home">
       <section className="overflow-hidden rounded-[2rem] border border-[#fafad2] bg-gradient-to-br from-[#fff7f2] via-white to-[#fafad2] shadow-[0_20px_60px_-20px_rgb(218,145,0)]">
         <div className="flex flex-col lg:flex-row items-center gap-8 p-6 sm:p-8 lg:p-12">
           <div className="w-full lg:w-1/2 text-center lg:text-left">
