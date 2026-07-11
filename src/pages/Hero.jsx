@@ -12,7 +12,7 @@ const Hero = () => {
               Luxury beauty, redefined
             </p>
             <h1 className="mt-4 text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-[#2f2a29]">
-              Where <span className="relative inline-flex h-full w-42 items-end justify-center align-bottom"><img src={logo} alt="Salon logo" loading="eager" decoding="async" width="160" height="80" className="h-full w-full object-contain" /></span> meets confidence.
+              Where <span className="relative inline-flex w-24 items-end justify-center align-bottom h-full sm:w-28 md:w-40 lg:w-42"><img src={logo} alt="Salon logo" loading="eager" decoding="async" className="h-full w-full object-contain" /></span> meets confidence.
             </h1>
             <p className="mt-4 text-base sm:text-lg text-[#5f5452] max-w-xl mx-auto lg:mx-0">
               Step into a calming space designed for radiant hair, flawless styling,
@@ -28,8 +28,8 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3 text-left">
-              <div className="rounded-2xl bg-white/80 p-2 sm:p-3 shadow-sm">
+            <div className="mt-8 grid grid-cols-3 gap-3 md:text-left text-center">
+              <div className="rounded-2xl bg-white/80 p-2 shadow-sm">
                 <p className="text-lg sm:text-xl font-bold text-[var(--color-primary)]">4.9/5</p>
                 <p className="text-xs sm:text-sm text-[#7d6e69]">Client love</p>
               </div>
@@ -37,7 +37,7 @@ const Hero = () => {
                 <p className="text-lg sm:text-xl font-bold text-[var(--color-primary)]">15+</p>
                 <p className="text-xs sm:text-sm text-[#7d6e69]">Years styling</p>
               </div>
-              <div className="rounded-2xl bg-white/80 p-2 sm:p-3 shadow-sm col-span-2 sm:col-span-1">
+              <div className="rounded-2xl bg-white/80 p-2 sm:p-3 shadow-sm col-span-1 sm:col-span-1">
                 <p className="text-lg sm:text-xl font-bold text-[var(--color-primary)]">7 days</p>
                 <p className="text-xs sm:text-sm text-[#7d6e69]">Open weekly</p>
               </div>
